@@ -1,7 +1,7 @@
 {
     "class": "AS3",
     "declaration": {
-        "wiki": {
+        "F5_Forum": {
             "class": "Tenant",
             "wiki": {
                 "class": "Application",
@@ -63,15 +63,6 @@
                     }
                 }
             }
-        },
-        "class": "ADC",
-        "schemaVersion": "3.10.0",
-        "id": "fgij90",
-        "label": "Config_z_-itu",
-        "remark": "HTTPS service",
-        "updateMode": "selective",
-        "controls": {
-            "archiveTimestamp": "2019-05-14T10:16:14.728Z"
         }
     }
 }
