@@ -1,7 +1,7 @@
 ---
 
 
-- name: test
+- name: AS3 & Ansible
   hosts: all
   connection: local
 
