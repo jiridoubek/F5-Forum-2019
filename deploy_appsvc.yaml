@@ -7,13 +7,13 @@
 
   vars:
     provider:
-      server: 10.19.31.53
+      server: 10.19.31.54
       user: admin
-      password: 1234Qwer
+      password: f5Rulez!
       validate_certs: no
 
   tasks:
-  - name: Deploy an app service configuration via BIGIQ
+  - name: Deploy an app service configuration via AS3
     bigip_appsvcs_extension:
       content: "{{ lookup('file', 'as3_service.json') }}"
       state: present
