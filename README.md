@@ -1,7 +1,7 @@
 # F5-Forum-2019
 Source pro live ukazku na F5 Forum 2019 v Praze
 
-#Jak to cele funguje?
+Jak to cele funguje?
 
 Ať v GitHubu (online) nebo v GitLab (lokální instance) se vytváří projekty, evidují změny kódu atd. Jen vyjmenovaní uživatelé mohou akceptovat změny od ostatních. Git eviduje kompletní historii všeho, co je v něm uloženo.
 
