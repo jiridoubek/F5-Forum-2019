@@ -13,7 +13,7 @@
       validate_certs: no
 
   tasks:
-  - name: Deploy an app service configuration via AS3 improving success rate
+  - name: Deploy an app service configuration via AS3
     bigip_appsvcs_extension:
       content: "{{ lookup('file', 'as3_service.json') }}"
       state: present
