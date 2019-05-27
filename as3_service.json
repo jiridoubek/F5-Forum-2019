@@ -1,6 +1,10 @@
 {
     "class": "AS3",
     "declaration": {
+        "class": "ADC",
+        "schemaVersion": "3.10.0",
+        "label": "Config_z_Gitu",
+        "remark": "HTTPS service",
         "F5_Forum": {
             "class": "Tenant",
             "wiki": {
@@ -56,10 +60,10 @@
                 "webcert": {
                     "class": "Certificate",
                     "certificate": {
-                        "bigip": "/Common/nginx.crt"
+                        "bigip": "/Common/f5forum"
                     },
                     "privateKey": {
-                        "bigip": "/Common/nginx.key"
+                        "bigip": "/Common/f5forum"
                     }
                 }
             }
